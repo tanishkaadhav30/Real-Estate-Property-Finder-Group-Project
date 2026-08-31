@@ -72,7 +72,7 @@ useEffect(() => {
           Home
         </button>
 
-        <button onClick={() => navigate("/properties")}>
+        <button onClick={() => navigate("/property")}>
           Properties
         </button>
 
@@ -224,7 +224,7 @@ export function HeroSlider({ slides }) {
 
           <button
             className="hero-search-btn"
-            onClick={() => navigate("/properties")}
+            onClick={() => navigate("/property")}
           >
             <FiSearch />
             Search
@@ -324,7 +324,7 @@ export function CityCard({
         <button
           onClick={() =>
             navigate(
-              `/properties?city=${name}`
+              `/property?city=${name}`
             )
           }
         >
@@ -502,7 +502,7 @@ export function SearchFromMap({
   const handleSearch = (e) => {
     e.preventDefault();
     navigate(
-      `/properties?location=${location}&type=${propertyType}`
+      `/property?location=${location}&type=${propertyType}`
     );
 
   };

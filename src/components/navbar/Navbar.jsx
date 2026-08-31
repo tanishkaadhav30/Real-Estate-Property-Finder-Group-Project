@@ -87,13 +87,12 @@ function Navbar() {
     localStorage.removeItem("user");
     localStorage.removeItem("isLoggedIn");
 
-    // Navbar मध्ये Login दाखवण्यासाठी
     setIsLoggedIn(false);
 
     // Menu close
     setMenuOpen(false);
 
-    // Login page वर जा
+  
     navigate("/login");
   };
 
@@ -139,7 +138,7 @@ function Navbar() {
           onClick={() => navigate("/property")}
         >
           <FiHome />
-          Properties
+          Property
         </button>
 
         <button
@@ -232,7 +231,7 @@ function Navbar() {
           }}
         >
           <FiHome />
-          Properties
+          Property
         </button>
 
         <button

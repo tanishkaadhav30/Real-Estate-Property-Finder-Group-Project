@@ -49,7 +49,7 @@
 
   border-radius: 50%;
 
-  background: #ff8533;
+  background: #f7a934;
 
   display: flex;
   align-items: center;
@@ -62,7 +62,7 @@
 .hero-label {
   margin: 0 0 12px;
 
-  color: #c88937;
+  color: #f19e31;
 
   font-size: 12px;
 
@@ -82,7 +82,7 @@
 }
 
 .wishlist-hero h1 span {
-  color: #ff8533;
+  color: #dc901d;
 }
 
 .hero-description {
@@ -552,7 +552,7 @@
 
   padding: 15px 30px;
 
-  background: #e69a3c;
+  background:#3d3339;
 
   color: #ffffff;
 
@@ -568,12 +568,13 @@
 }
 
 .browse-btn:hover {
-  background: #cf8226;
+  background: white;
+  color:#65555f;
 
   transform: translateY(-2px);
 
   box-shadow:
-    0 8px 20px rgba(230, 154, 60, 0.3);
+    0 8px 20px #3d3339;
 }
 
 

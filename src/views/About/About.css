@@ -41,7 +41,7 @@
 .how-heading h2 span,
 .team-heading h2 span,
 .contact-heading h2 span {
-  color: #f77626;
+  color: #a27b42;
 }
 
 .about-hero p {
@@ -58,13 +58,14 @@
   border: none;
   padding: 14px 25px;
   border-radius: 8px;
-  background: #ff8533;
-  color: white;
+  background:white;
+  color:#3d3933;
   font-size: 16px;
   font-weight: 600;
   cursor: pointer;
   transition: 0.3s;
   text-decoration: none;
+  border:1px solid white;
 }
 
 .about-btn {
@@ -76,7 +77,8 @@
 .about-btn:hover,
 .about-cta button:hover,
 .contact-btn:hover {
-  background: #662a03;
+  background: #746d63;
+  color:white;
   transform: translateY(-2px);
 }
 
@@ -102,14 +104,14 @@
   justify-content: center;
   flex-shrink: 0;
   border-radius: 10px;
-  background: #fff7ed;
-  color: #f59e0b;
+  color: #3d3933;
+  background-color: #3d3933;
   transition: 0.1s ease;
 }
 
 .contact-item:hover .contact-icon {
-  background: #f59e0b;
-  color: #ffffff;
+  background: white;
+  color: #3d3933;
 }
 
 .contact-item h4 {
@@ -151,8 +153,7 @@
 }
 
 .section-label {
-  color: #f59e0b;
-  color: #f87e1a;
+  color: #3d3933;
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 2px;
@@ -233,7 +234,7 @@
 .stat-card h2 {
   margin: 0;
   font-size: 35px;
-  color: #f39819;
+  color: #3d3933;
 }
 
 .stat-card p {
@@ -242,7 +243,7 @@
 }
 
 .stat-card:hover {
-  border: 1px solid #f39819;
+  border: 1px solid #3d3933;
 }
 
 .why-us {
@@ -325,7 +326,7 @@
 }
 
 .step-card:hover {
-  border: 1px solid #f39819;
+  border: 1px solid #3d3933;
 }
 
 .step-number {
@@ -471,7 +472,7 @@
 
 .form-group input:focus,
 .form-group textarea:focus {
-  border-color: #f5780b;
+  border-color: #a08c7a;
 }
 
 .form-group textarea {

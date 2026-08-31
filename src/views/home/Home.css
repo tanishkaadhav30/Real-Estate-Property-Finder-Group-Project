@@ -116,7 +116,7 @@ body {
   padding: 0 22px;
   border: none;
   border-radius: 30px;
-  background: #ff8533;
+  background: #3d3933;
   color: white;
   font-size: 14px;
   font-weight: 600;
@@ -124,15 +124,15 @@ body {
 }
 
 .hero-search-btn:hover {
-  background: #662a03;
-  border: 1px solid rgb(242, 235, 233);
+  background: white;
+  border: 1px solid #3d3933;
   transition: border 0.6s ease;
-  color: white;
+  color:#3d3933;
 }
 
 .filter-item svg {
   font-size: 18px;
-  color: #ff6600;
+  color: #E69A3c;
   flex-shrink: 0;
 }
 
@@ -168,7 +168,7 @@ body {
 }
 
 .starss {
-  color: #f1631d;
+  color: white;
   font-size: 20px;
   letter-spacing: 5px;
 }
@@ -280,7 +280,7 @@ body {
 .cities-heading h2 {
   margin: 0 0 12px;
   font-size: 37px;
-  color: #222;
+  color: #a27b42;
 }
 
 .cities-heading span {
@@ -358,8 +358,8 @@ body {
   padding: 9px 18px;
   border: none;
   border-radius: 20px;
-  background: white;
-  color: #ff8533;
+  background: #3d3933;
+  color:white;
   font-size: 12px;
   font-weight: 600;
   cursor: pointer;
@@ -368,9 +368,9 @@ body {
 
 .city-content button:hover {
   transform: translateX(5px);
-  background: #662a03;
-  color: white;
-  border: 1px solid rgb(176, 166, 162);
+  background: white;
+  color: #3d3933;
+  border: 1px solid #3d3933;
   transition: border 0.6s ease;
 }
 
@@ -390,7 +390,7 @@ body {
   font-family: "Playfair Display", serif;
   font-size: 37px;
   font-weight: 600;
-  color: #17324d;
+  color: #a27b42;
   margin-bottom: 8px;
 }
 
@@ -421,7 +421,7 @@ body {
 .property-card:hover {
   transform: translateY(-7px);
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.13);
-  border: 1px solid #e65c00;
+  border: 1px solid #3d3933;
   transition: all 0.3s ease;
 }
 
@@ -527,7 +527,7 @@ body {
   font-size: 13px;
   font-weight: 700;
   letter-spacing: 3px;
-  color: #777;
+  color: #a27b42;
 }
 
 .map-text h2 {
@@ -677,7 +677,7 @@ body {
 .agent-icon svg {
   width: 26px;
   height: 26px;
-  color: #d57235;
+  color: #3d3933;
 }
 
 
@@ -689,7 +689,7 @@ body {
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 2px;
-  color: #ff8533;
+  color: #a27b42;
 }
 
 /* HEADING */
@@ -821,7 +821,7 @@ body {
   font-size: 28px;
   font-weight: 700;
   letter-spacing: 2px;
-  color: #dd7e3f;
+  color: #a27b42;
   margin-bottom: 10px;
 }
 
@@ -852,7 +852,7 @@ body {
 .why-card:hover {
   transform: translateY(-7px);
   box-shadow: 0 12px 28px rgba(248, 141, 20, 0.08);
-  border: 1px solid #e65c00;
+  border: 1px solid #3d3933;
   transition: all 0.3s ease;
 }
 
@@ -882,7 +882,7 @@ body {
 }
 
 .why-icon svg {
-  color: rgb(251, 153, 17);
+  color: #E69A3c;
 }
 
 /* mediaQuery /*

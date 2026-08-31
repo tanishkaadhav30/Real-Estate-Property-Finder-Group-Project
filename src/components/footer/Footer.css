@@ -1,6 +1,6 @@
 .footer {
   width: 100%;
-  background: #331400;
+  background: #3d3933;
   color: white;
 }
 
@@ -71,7 +71,7 @@
 
 .footer-column a svg {
   width: fit-content;
-  color: rgba(230, 81, 7, 0.75);
+  color:white;
   text-decoration: none;
   font-family: "Poppins", sans-serif;
   font-size: 19px;
