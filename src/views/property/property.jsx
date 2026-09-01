@@ -44,7 +44,7 @@ function Property() {
         }
         const wishlistKey =
             "wishlist_" +
-            currentUser.mobile;
+            currentUser.email;
         const savedWishlist =
             JSON.parse(
                 localStorage.getItem(

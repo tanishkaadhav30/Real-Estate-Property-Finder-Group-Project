@@ -49,7 +49,7 @@ function Navbar() {
     // Initial check
     updateLoginStatus();
 
-    // Login झाल्यावर status update
+
     window.addEventListener(
       "loginStatusChanged",
       updateLoginStatus
@@ -92,7 +92,7 @@ function Navbar() {
     // Menu close
     setMenuOpen(false);
 
-  
+
     navigate("/login");
   };
 
@@ -128,18 +128,26 @@ function Navbar() {
         </button>
 
         <button
+          onClick={() => navigate("/property")}
+        >
+          <FiHome />
+          Property
+        </button>
+        
+        <button
+          onClick={() => navigate("/wishlist")}
+        >
+          <FiHeart />
+          Wishlist
+        </button>
+
+        <button
           onClick={() => navigate("/about")}
         >
           <FiInfo />
           About
         </button>
 
-        <button
-          onClick={() => navigate("/property")}
-        >
-          <FiHome />
-          Property
-        </button>
 
         <button
           onClick={() => navigate("/cart")}
@@ -148,12 +156,6 @@ function Navbar() {
           Cart
         </button>
 
-        <button
-          onClick={() => navigate("/wishlist")}
-        >
-          <FiHeart />
-          Wishlist
-        </button>
 
         {/* ================= LOGIN / LOGOUT ================= */}
 
@@ -209,8 +211,8 @@ function Navbar() {
 
       <div
         className={`mobile-menu ${menuOpen
-            ? "mobile-menu-open"
-            : ""
+          ? "mobile-menu-open"
+          : ""
           }`}
       >
 

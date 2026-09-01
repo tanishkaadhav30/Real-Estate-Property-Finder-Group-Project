@@ -9,6 +9,14 @@ that helps users discover properties for buying and renting.
 ## 📸 ScreenShot
 
 ### 🏠 Home Page
+![homepage](src/assets/homepage.png)
+
+### 🛍️ Propety Page
+![propertypage](src/assets/propertypage.png)
+
+### 🛒 Cart Page
+![cartpage](src/assets/cartpage.png)
+
 
 ## 🚀 Features
 
