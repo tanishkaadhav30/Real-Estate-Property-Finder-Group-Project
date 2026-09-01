@@ -44,7 +44,7 @@ that helps users discover properties for buying and renting.
 
 ## 👥 Contributors
 
-<p align="center">
+<p align="left">
   <img src="./src/assets/member1.jpg" width="70" height="70" style="border-radius:50%;" />
   <img src="./src/assets/member2.jpg" width="70" height="70" style="border-radius:50%;" />
   <img src="./src/assets/member3.jpg" width="70" height="70" style="border-radius:50%;" />
