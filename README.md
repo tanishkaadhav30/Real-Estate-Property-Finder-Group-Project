@@ -45,10 +45,10 @@ that helps users discover properties for buying and renting.
 ## 👥 Contributors
 
 <p align="center">
-  <img src="./src/assets/member1.jpg" width="110" height="110" />
-  <img src="./src/assets/member2.jpg" width="110" height="110" />
-  <img src="./src/assets/member3.jpg" width="110" height="110" />
-  <img src="./src/assets/member4.jpg" width="110" height="110" border-radius="30px" />
+  <img src="./src/assets/member1.jpg" width="70" height="70" style="border-radius:50%;" />
+  <img src="./src/assets/member2.jpg" width="70" height="70" style="border-radius:50%;" />
+  <img src="./src/assets/member3.jpg" width="70" height="70" style="border-radius:50%;" />
+  <img src="./src/assets/member4.jpg" width="70" height="70" style="border-radius:50%;" />
 </p>
 
 ## ⭐ Support
