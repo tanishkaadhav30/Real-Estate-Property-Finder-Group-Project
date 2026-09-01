@@ -12,7 +12,7 @@ import {
     FaHouse,
     FaHeart,
     FaMagnifyingGlass,
-    
+
 } from "react-icons/fa6";
 
 
@@ -32,27 +32,27 @@ function Cart() {
     useEffect(() => {
 
         const currentUser =
-    JSON.parse(
-        localStorage.getItem("currentUser")
-    );
+            JSON.parse(
+                localStorage.getItem("currentUser")
+            );
 
-if (!currentUser) {
-    setCart([]);
-    return;
-}
+        if (!currentUser) {
+            setCart([]);
+            return;
+        }
 
-const cartKey =
-    "cart_" + currentUser.mobile;
+        const cartKey =
+            "cart_" + currentUser.mobile;
 
-const savedCart =
-    JSON.parse(
-        localStorage.getItem(cartKey)
-    ) || [];
+        const savedCart =
+            JSON.parse(
+                localStorage.getItem(cartKey)
+            ) || [];
 
-setCart(savedCart);
+        setCart(savedCart);
 
-        }, [navigate]);
-      
+    }, [navigate]);
+
 
     // ==========================================
     // REMOVE ONE PROPERTY
@@ -64,11 +64,11 @@ setCart(savedCart);
             JSON.parse(
                 localStorage.getItem("currentUser")
             );
-if (!currentUser) {
-    alert("Please login first to remove a property.");
-    navigate("/login");
-    return;
-}
+        if (!currentUser) {
+            alert("Please login first to remove a property.");
+            navigate("/login");
+            return;
+        }
 
         const updatedCart =
             cart.filter(
@@ -94,45 +94,45 @@ if (!currentUser) {
     // ==========================================
 
     const buyNow = (property) => {
-    const currentUser =
-        JSON.parse(localStorage.getItem("currentUser"));
+        const currentUser =
+            JSON.parse(localStorage.getItem("currentUser"));
 
-    if (!currentUser) {
-        alert("Please login first to purchase a property.");
-        navigate("/login");
-        return;
-    }
+        if (!currentUser) {
+            alert("Please login first to purchase a property.");
+            navigate("/login");
+            return;
+        }
 
-    alert(`${property.name} purchased successfully! 🎉`);
-};
+        alert(`${property.name} purchased successfully! 🎉`);
+    };
 
 
     // ==========================================
     // CANCEL ORDER
     // ==========================================
-const cancelOrder = () => {
+    const cancelOrder = () => {
 
-    const currentUser =
-        JSON.parse(
-            localStorage.getItem("currentUser")
-        );
+        const currentUser =
+            JSON.parse(
+                localStorage.getItem("currentUser")
+            );
 
-    if (!currentUser) {
-        alert("Please login first to cancel your order.");
-        navigate("/login");
-        return;
-    }
+        if (!currentUser) {
+            alert("Please login first to cancel your order.");
+            navigate("/login");
+            return;
+        }
 
-    const cartKey =
-        "cart_" + currentUser.mobile;
+        const cartKey =
+            "cart_" + currentUser.mobile;
 
-    localStorage.removeItem(cartKey);
+        localStorage.removeItem(cartKey);
 
-    setCart([]);
+        setCart([]);
 
-    alert("Order cancelled successfully.");
-};
-        
+        alert("Order cancelled successfully.");
+    };
+
 
 
     // ==========================================
@@ -216,87 +216,87 @@ const cancelOrder = () => {
 
                 </div>
                 <div className="cart-person-image">
-        <img
-            src="https://i.imgur.com/F0QQrd7.jpeg"
-            alt="Real estate advisor"
-        />
-    </div>
+                    <img
+                        src="https://i.imgur.com/F0QQrd7.jpeg"
+                        alt="Real estate advisor"
+                    />
+                </div>
                 <div className="cart-journey">
- <div className="cart-count">
-        <FaCartShopping />
+                    <div className="cart-count">
+                        <FaCartShopping />
 
-        <strong>
-            {cart.length}
-        </strong>
+                        <strong>
+                            {cart.length}
+                        </strong>
 
-        <span>
-            {cart.length === 1
-                ? "Property"
-                : "Properties"}
-        </span>
-    </div>
-    <div className="journey-heading">
-        <span>YOUR PROPERTY JOURNEY</span>
-        <strong>From search to<br />your new home.</strong>
-    </div>
+                        <span>
+                            {cart.length === 1
+                                ? "Property"
+                                : "Properties"}
+                        </span>
+                    </div>
+                    <div className="journey-heading">
+                        <span>YOUR PROPERTY JOURNEY</span>
+                        <strong>From search to<br />your new home.</strong>
+                    </div>
 
-    <div className="journey-steps">
+                    <div className="journey-steps">
 
-        <div className="journey-step active">
-            <div className="journey-icon">
-                <FaMagnifyingGlass />
-            </div>
+                        <div className="journey-step active">
+                            <div className="journey-icon">
+                                <FaMagnifyingGlass />
+                            </div>
 
-            <div>
-                <strong>Explore</strong>
-                <span>Discover properties</span>
-            </div>
-        </div>
+                            <div>
+                                <strong>Explore</strong>
+                                <span>Discover properties</span>
+                            </div>
+                        </div>
 
-        <div className="journey-arrow">→</div>
+                        <div className="journey-arrow">→</div>
 
-        <div className="journey-step">
-            <div className="journey-icon">
-                <FaHeart />
-            </div>
+                        <div className="journey-step">
+                            <div className="journey-icon">
+                                <FaHeart />
+                            </div>
 
-            <div>
-                <strong>Shortlist</strong>
-                <span>Save your favourites</span>
-            </div>
-        </div>
+                            <div>
+                                <strong>Shortlist</strong>
+                                <span>Save your favourites</span>
+                            </div>
+                        </div>
 
-        <div className="journey-arrow">→</div>
+                        <div className="journey-arrow">→</div>
 
-        <div className="journey-step">
-            <div className="journey-icon">
-                <FaCartShopping />
-            </div>
+                        <div className="journey-step">
+                            <div className="journey-icon">
+                                <FaCartShopping />
+                            </div>
 
-            <div>
-                <strong>Choose</strong>
-                <span>Review your selection</span>
-            </div>
-        </div>
+                            <div>
+                                <strong>Choose</strong>
+                                <span>Review your selection</span>
+                            </div>
+                        </div>
 
-        <div className="journey-arrow">→</div>
+                        <div className="journey-arrow">→</div>
 
-        <div className="journey-step">
-            <div className="journey-icon">
-                <FaHouse />
-            </div>
+                        <div className="journey-step">
+                            <div className="journey-icon">
+                                <FaHouse />
+                            </div>
 
-            <div>
-                <strong>Move In</strong>
-                <span>Find your next home</span>
-            </div>
-        </div>
+                            <div>
+                                <strong>Move In</strong>
+                                <span>Find your next home</span>
+                            </div>
+                        </div>
 
-    </div>
+                    </div>
 
-</div>
+                </div>
 
-               
+
 
             </div>
 
@@ -354,11 +354,11 @@ const cancelOrder = () => {
 
                                 <div className="cart-property-image">
 
-                                    
-                                       <img src={property.images?.[0]} alt={property.name} />
-                                        
-                                    
-                                    
+
+                                    <img src={property.images?.[0]} alt={property.name} />
+
+
+
                                 </div>
 
 
@@ -400,9 +400,9 @@ const cancelOrder = () => {
                                         <span>
                                             Price :
                                         </span>
- ₹
+                                        ₹
                                         <strong>
-                                            
+
                                             {getPrice(
                                                 property.price
                                             ).toLocaleString(
@@ -483,8 +483,8 @@ const cancelOrder = () => {
                             </span>
 
                             <strong>
-                              
-                                  ₹ {totalPrice.toLocaleString(
+
+                                ₹ {totalPrice.toLocaleString(
                                     "en-IN"
                                 )}
                             </strong>

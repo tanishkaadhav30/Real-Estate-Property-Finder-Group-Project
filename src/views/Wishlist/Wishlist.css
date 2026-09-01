@@ -16,10 +16,8 @@
   height: 430px;
 
   background:
-    linear-gradient(
-      rgba(12, 18, 32, 0.87),
-      rgba(12, 18, 32, 0.87)
-    ),
+    linear-gradient(rgba(12, 18, 32, 0.87),
+      rgba(12, 18, 32, 0.87)),
     url("../../assets/morden apartment.jpg");
 
   background-size: cover;
@@ -570,7 +568,7 @@
 
 .browse-btn:hover {
   background: #662a03;
-color:white;
+  color: white;
   transform: translateY(-2px);
 
   box-shadow:

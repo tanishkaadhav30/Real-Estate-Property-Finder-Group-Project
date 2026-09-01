@@ -1,20 +1,17 @@
 .property-header {
     position: relative;
-   width: 100%;
+    width: 100%;
     padding: 15px 8%;
     padding-bottom: 40px;
-top:40px;
+    top: 40px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
 
     gap: 35px;
-  background: linear-gradient(
-     
-        #f9f8f8 0%,
-        #ffffff 65%,
-        #f9f8f8 100%
-    );
+    background: linear-gradient(#f9f8f8 0%,
+            #ffffff 65%,
+            #f9f8f8 100%);
 
     overflow: hidden;
 
@@ -35,7 +32,7 @@ top:40px;
 
     margin-bottom: 14px;
     position: relative;
-top: -100px;
+    top: -100px;
     color: #ff8533;
 
     font-size: 15px;
@@ -50,8 +47,8 @@ top: -100px;
 
 .property-header h1 {
     margin: 0;
-position: relative;
-top: -77px;
+    position: relative;
+    top: -77px;
     font-family: Georgia, "Times New Roman", serif;
 
     font-size: clamp(48px, 5vw, 66px);
@@ -66,15 +63,15 @@ top: -77px;
 .property-header h1 span {
     display: block;
     color: #ff8533;
-    
+
 }
 
-.property-header-content > p {
+.property-header-content>p {
     margin: 18px 0 28px;
 
     max-width: 570px;
-position: relative;
-top: -57px;
+    position: relative;
+    top: -57px;
     color: #777777;
 
     font-size: 15px;
@@ -91,7 +88,7 @@ top: -57px;
     align-items: center;
     gap: 28px;
     position: relative;
-top: -20px;
+    top: -20px;
 }
 
 .header-stat {
@@ -157,7 +154,7 @@ top: -20px;
    MAIN IMAGE
 ===================================================== */
 
-   .property-visual-image {
+.property-visual-image {
     position: absolute;
 
     left: 0;
@@ -177,14 +174,12 @@ top: -20px;
         0 18px 40px rgba(48, 39, 27, 0.12);
 
     background-image:
-        linear-gradient(
-            135deg,
+        linear-gradient(135deg,
             rgba(48, 38, 27, 0.08),
-            rgba(48, 38, 27, 0.45)
-        ),
+            rgba(48, 38, 27, 0.45)),
         url("https://static.toiimg.com/thumb/imgsize-113762,msid-131606714/131606714.jpg?width=500&resizemode=4");
 
-    
+
 }
 
 
@@ -199,7 +194,7 @@ top: -20px;
     position: absolute;
     inset: 0;
 
-    
+
 }
 
 
@@ -255,14 +250,14 @@ top: -20px;
     top: 63px;
 
     width: 220px;
- background: rgba(255, 255, 255, 0.96);
+    background: rgba(255, 255, 255, 0.96);
 
     border-radius: 21px;
     padding: 13px 12px;
 
     box-sizing: border-box;
 
-   
+
 
 }
 
@@ -503,15 +498,14 @@ top: -20px;
         height: 30px;
     }
 }
+
 .property-page {
     min-height: 100vh;
     padding: 55px 6% 80px;
     background:
-        linear-gradient(
-            180deg,
+        linear-gradient(180deg,
             #f9f8f8 0%,
-            #f1f1f1 100%
-        );
+            #f1f1f1 100%);
     color: #222222;
     font-family:
         "Inter",
@@ -519,6 +513,7 @@ top: -20px;
         Arial,
         sans-serif;
 }
+
 .property-header {
     max-width: 1380px;
     margin: 0 auto 38px;
@@ -527,6 +522,7 @@ top: -20px;
     justify-content: space-between;
     gap: 30px;
 }
+
 .property-header h1 {
     margin: 0 0 10px;
     color: #17324d;
@@ -539,12 +535,14 @@ top: -20px;
     line-height: 1.08;
     letter-spacing: -1.2px;
 }
+
 .property-header p {
     margin: 0;
     color: #777777;
     font-size: 15px;
     line-height: 1.7;
 }
+
 .wishlist-page-btn {
     flex-shrink: 0;
     height: 46px;
@@ -565,18 +563,21 @@ top: -20px;
         color 0.25s ease,
         border-color 0.25s ease;
 }
+
 .wishlist-page-btn:hover {
     transform: translateY(-2px);
     background: #662a03;
     border-color: #ffffff;
     color: #ffffff;
 }
+
 .property-search {
     max-width: 1380px;
     margin: 0 auto 26px;
     position: relative;
-    top:-60px;
+    top: -60px;
 }
+
 .property-search::before {
     content: "⌕";
     position: absolute;
@@ -587,6 +588,7 @@ top: -20px;
     font-size: 23px;
     pointer-events: none;
 }
+
 .property-search input {
     width: 100%;
     height: 60px;
@@ -605,14 +607,17 @@ top: -20px;
         border-color 0.25s ease,
         box-shadow 0.25s ease;
 }
+
 .property-search input::placeholder {
     color: #aaaaaa;
 }
+
 .property-search input:focus {
     border-color: #b0997f;
     box-shadow:
         0 0 0 4px rgba(70, 62, 48, 0.06);
 }
+
 .category-buttons {
     max-width: 1380px;
     margin: 0 auto 25px;
@@ -624,17 +629,19 @@ top: -20px;
     scrollbar-width: none;
     margin-top: -30px;
 }
+
 .category-buttons::-webkit-scrollbar {
     display: none;
 }
+
 .category-buttons button {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: 10px; 
+    gap: 10px;
     height: 44px;
     padding: 0 20px;
-    border:none;
+    border: none;
     border-radius: 10px;
     background: #ffffff;
     color: #666666;
@@ -643,16 +650,19 @@ top: -20px;
     cursor: pointer;
     transition: all 0.25s ease;
 }
+
 .category-buttons button svg {
     width: 16px;
     height: 16px;
     flex-shrink: 0;
 }
+
 .category-buttons button:hover {
     border-color: #662a03;
     color: #ffffff;
     transform: translateY(-1px);
 }
+
 .category-buttons button.active {
     background: #ff8533;
     border-color: #ffffff;
@@ -660,6 +670,7 @@ top: -20px;
     box-shadow:
         0 5px 14px rgba(35, 32, 26, 0.16);
 }
+
 .result-count {
     max-width: 1380px;
     margin: 0 auto 20px;
@@ -667,12 +678,14 @@ top: -20px;
     justify-content: space-between;
     align-items: center;
 }
+
 .result-count span {
     color: #777777;
     font-size: 13px;
     font-weight: 600;
     letter-spacing: 0.2px;
 }
+
 /* =====================================================
    PROPERTY GRID
 ===================================================== */
@@ -774,11 +787,9 @@ top: -20px;
     height: 32%;
 
     background:
-        linear-gradient(
-            to bottom,
+        linear-gradient(to bottom,
             transparent,
-            rgba(0, 0, 0, 0.22)
-        );
+            rgba(0, 0, 0, 0.22));
 
     pointer-events: none;
 }
@@ -871,15 +882,13 @@ top: -20px;
     color: #e65c00;
 }
 
-.property-image-container
-.wishlist-btn.wishlisted {
+.property-image-container .wishlist-btn.wishlisted {
     color: #e65c00;
 
     background: #ffffff !important;
 }
 
-.property-image-container
-.wishlist-btn i {
+.property-image-container .wishlist-btn i {
     display: block;
 
     margin: 0 !important;
@@ -1179,78 +1188,98 @@ top: -20px;
         font-size: 18px;
     }
 }
+
 @media (max-width: 1150px) {
     .property-page {
         padding:
             40px 4% 65px;
     }
+
     .property-grid {
         grid-template-columns:
             repeat(2, minmax(0, 1fr));
     }
 }
+
 @media (max-width: 760px) {
     .property-page {
         padding:
             30px 18px 55px;
     }
+
     .property-header {
         align-items: flex-start;
         flex-direction: column;
         gap: 20px;
     }
+
     .property-header h1 {
         font-size: 36px;
     }
+
     .wishlist-page-btn {
         align-self: flex-start;
     }
+
     .property-grid {
         grid-template-columns: 1fr;
         gap: 22px;
     }
+
     .property-image-container {
         height: 270px;
     }
 }
+
 @media (max-width: 480px) {
     .property-page {
         padding:
             25px 13px 45px;
     }
+
     .property-header {
         margin-bottom: 25px;
     }
+
     .property-header h1 {
         font-size: 31px;
         letter-spacing: -0.7px;
     }
+
     .property-header p {
         font-size: 13px;
     }
+
     .property-search input {
         height: 54px;
     }
+
     .category-buttons {
         margin-bottom: 20px;
     }
+
     .category-buttons button {
         padding: 0 15px;
     }
+
     .property-image-container {
         height: 230px;
     }
+
     .property-card-content {
         padding:
             20px 17px 18px;
     }
+
     .property-card-content h2 {
         font-size: 19px;
     }
+
     .property-buttons {
         grid-template-columns: 1fr;
     }
 }
+
 .wishlist-btn {
     position: absolute;
     top: 16px;
@@ -1269,17 +1298,21 @@ top: -20px;
     z-index: 10;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
 }
+
 .wishlist-heart {
     width: 21px;
     height: 21px;
     color: #444444;
 }
+
 .wishlist-heart.filled {
     color: #e65c00;
 }
+
 .wishlist-btn.wishlisted {
     border-color: #e65c00;
 }
+
 /* =================================================
    WHY CHOOSE NESTFINDER
 ================================================= */
@@ -1290,7 +1323,7 @@ top: -20px;
     padding: 58px 55px;
     box-sizing: border-box;
     border-radius: 28px;
-    
+
     position: relative;
     overflow: hidden;
 }
@@ -1302,7 +1335,7 @@ top: -20px;
     width: 260px;
     height: 260px;
     border-radius: 50%;
-   
+
     top: -130px;
     right: -70px;
 }
@@ -1313,7 +1346,7 @@ top: -20px;
     width: 180px;
     height: 180px;
     border-radius: 50%;
- 
+
     bottom: -100px;
     left: -50px;
 }
@@ -1626,7 +1659,7 @@ top: -20px;
 
 /* SMALL LABEL */
 
-.location-info > .location-small-label {
+.location-info>.location-small-label {
     margin-bottom: 10px;
 }
 
@@ -1790,7 +1823,7 @@ top: -20px;
 
 /* ARROW */
 
-.popular-location-item > svg {
+.popular-location-item>svg {
     color: #aaaaaa;
 
     font-size: 11px;
@@ -1800,7 +1833,7 @@ top: -20px;
         color 0.25s ease;
 }
 
-.popular-location-item:hover > svg {
+.popular-location-item:hover>svg {
     color: #ff8533;
 
     transform: translateX(4px);
@@ -1821,7 +1854,7 @@ top: -20px;
     margin-bottom: 21px;
 }
 
-.location-mini-stats > div {
+.location-mini-stats>div {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1986,7 +2019,7 @@ top: -20px;
         gap: 6px;
     }
 
-    .location-mini-stats > div {
+    .location-mini-stats>div {
         padding: 10px 4px;
     }
 
@@ -2003,28 +2036,24 @@ top: -20px;
 ===================================================== */
 
 body.dark-mode .property-page {
-    background: linear-gradient(
-        180deg,
-        #121212 0%,
-        #181818 100%
-    );
+    background: linear-gradient(180deg,
+            #121212 0%,
+            #181818 100%);
     color: #ffffff;
 }
 
 body.dark-mode .property-header {
-    background: linear-gradient(
-        180deg,
-        #121212 0%,
-        #181818 65%,
-        #121212 100%
-    );
+    background: linear-gradient(180deg,
+            #121212 0%,
+            #181818 65%,
+            #121212 100%);
 }
 
 body.dark-mode .property-header h1 {
     color: #ffffff;
 }
 
-body.dark-mode .property-header-content > p,
+body.dark-mode .property-header-content>p,
 body.dark-mode .property-header p {
     color: #bdbdbd;
 }
@@ -2173,9 +2202,7 @@ body.dark-mode .property-image-container .wishlist-btn:hover {
     color: #ff8533;
 }
 
-body.dark-mode
-.property-image-container
-.wishlist-btn.wishlisted {
+body.dark-mode .property-image-container .wishlist-btn.wishlisted {
     background: #292929 !important;
     color: #ff8533;
 }

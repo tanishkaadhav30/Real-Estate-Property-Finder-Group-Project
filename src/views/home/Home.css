@@ -92,7 +92,7 @@ body {
   align-items: center;
   gap: 8px;
   padding: 0 14px;
- 
+
   border-radius: 30px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
 }
@@ -619,7 +619,7 @@ body {
   font-weight: 600;
   cursor: pointer;
   transition: 0.3s ease;
-  
+
 }
 
 .map-search-btn span {
@@ -776,9 +776,9 @@ body {
 
 .agent-primary-btn:hover {
   background: #662a03;
-  border:1px solid #662a03;
+  border: 1px solid #662a03;
   transform: translateY(-2px);
-  color:white;
+  color: white;
 }
 
 /* SECONDARY BUTTON */
@@ -1502,6 +1502,7 @@ body.dark-mode .agent-card {
 body.dark-mode .agent-video {
   background: #222222;
 }
+
 .property-content {
   padding: 22px 22px 20px;
   background: #ffffff;
@@ -1567,6 +1568,7 @@ body.dark-mode .agent-video {
   font-weight: 600;
   white-space: nowrap;
 }
+
 /* PRICE */
 .property-price {
   margin: 0 0 9px;
@@ -1591,7 +1593,7 @@ body.dark-mode .agent-video {
   font-weight: 650;
   letter-spacing: 0.2px;
   cursor: pointer;
-  
+
 }
 
 /* BUTTON HOVER */
@@ -1599,7 +1601,7 @@ body.dark-mode .agent-video {
   background: #662a03;
   color: #ffffff;
   transform: translateY(-2px);
- 
+
 }
 
 /* BUTTON CLICK */

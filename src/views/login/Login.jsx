@@ -336,9 +336,8 @@ export default function AuthPage() {
 
             <button
               type="button"
-              className={`auth-tab ${
-                isLogin ? "active" : ""
-              }`}
+              className={`auth-tab ${isLogin ? "active" : ""
+                }`}
               onClick={() =>
                 switchMode("login")
               }
@@ -348,9 +347,8 @@ export default function AuthPage() {
 
             <button
               type="button"
-              className={`auth-tab ${
-                !isLogin ? "active" : ""
-              }`}
+              className={`auth-tab ${!isLogin ? "active" : ""
+                }`}
               onClick={() =>
                 switchMode("register")
               }
@@ -359,9 +357,8 @@ export default function AuthPage() {
             </button>
 
             <span
-              className={`auth-tab-slider ${
-                isLogin ? "left" : "right"
-              }`}
+              className={`auth-tab-slider ${isLogin ? "left" : "right"
+                }`}
             />
 
           </div>
@@ -607,8 +604,8 @@ export default function AuthPage() {
               {submitting
                 ? "Processing..."
                 : isLogin
-                ? "Log In"
-                : "Create Account"}
+                  ? "Log In"
+                  : "Create Account"}
 
             </button>
 

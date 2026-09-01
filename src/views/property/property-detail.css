@@ -1,4 +1,3 @@
-
 :root {
     /* Refined Color Palette */
     --pd-bg: #f9f8f8;
@@ -41,7 +40,7 @@
     position: relative;
     width: 100%;
     min-height: 100vh;
-margin-top:100px;
+    margin-top: 100px;
     padding: 24px clamp(16px, 4vw, 64px) 80px;
 
     background-color: var(--pd-bg);
@@ -72,11 +71,9 @@ margin-top:100px;
     width: 1px;
     height: 100px;
 
-    background: linear-gradient(
-        180deg,
-        var(--pd-gold),
-        transparent
-    );
+    background: linear-gradient(180deg,
+            var(--pd-gold),
+            transparent);
 
     opacity: 0.4;
 
@@ -132,8 +129,7 @@ margin-top:100px;
     display: grid;
 
     grid-template-columns:
-        minmax(0, 1.05fr)
-        minmax(340px, 0.95fr);
+        minmax(0, 1.05fr) minmax(340px, 0.95fr);
 
     gap: clamp(32px, 4vw, 64px);
 
@@ -264,8 +260,7 @@ margin-top:100px;
     border-color: #662a03;
 
     transform:
-        translateY(-50%)
-        scale(1.05);
+        translateY(-50%) scale(1.05);
 }
 
 .image-arrow-left {
@@ -516,7 +511,7 @@ margin-top:100px;
     display: flex;
 
     align-items: center;
-gap:40px;
+    gap: 40px;
     justify-content: left;
 
     margin-bottom: 20px;
@@ -711,8 +706,7 @@ gap:40px;
     transform: translateY(-1px);
 
     box-shadow:
-        0 6px 20px
-        rgba(255, 133, 51, 0.25);
+        0 6px 20px rgba(255, 133, 51, 0.25);
 }
 
 
@@ -742,7 +736,7 @@ gap:40px;
 /* Section Headings */
 
 .why-shop-heading h2,
-.property-reviews > h2 {
+.property-reviews>h2 {
     font-family: var(--pd-display);
 
     font-size: 22px;
@@ -882,13 +876,12 @@ gap:40px;
     border-color: #ff8533;
 
     box-shadow:
-        0 0 0 3px
-        var(--pd-gold-soft);
+        0 0 0 3px var(--pd-gold-soft);
 }
 
 .review-form button {
     margin-top: 10px;
-margin-bottom:30px;
+    margin-bottom: 30px;
     padding: 10px 20px;
 
     border: none;
@@ -896,7 +889,7 @@ margin-bottom:30px;
     border-radius: 6px;
     position: relative;
     top: 15px;
-    left:0px;
+    left: 0px;
     background: #ff8533;
 
     color: var(--pd-surface);
@@ -947,13 +940,15 @@ margin-bottom:30px;
 .review-main-layout {
     width: 100%;
     display: flex;
-    gap:30px;
+    gap: 30px;
 }
-    .review-property-image img{
-        margin-top: -30px;
-        width:300px;
-        border-radius: 20px;
-    }
+
+.review-property-image img {
+    margin-top: -30px;
+    width: 300px;
+    border-radius: 20px;
+}
+
 /* =========================================================
    RESPONSIVE — TABLET
    ========================================================= */
@@ -1100,7 +1095,9 @@ margin-bottom:30px;
         width: 13px;
         height: 13px;
     }
-}/* ================================
+}
+
+/* ================================
    REVIEW SECTION RESPONSIVENESS
    ================================ */
 
@@ -1137,7 +1134,7 @@ margin-bottom:30px;
         gap: 25px;
     }
 
-    .review-main-layout > div {
+    .review-main-layout>div {
         width: 100%;
     }
 
@@ -1443,7 +1440,7 @@ body.dark-mode .property-bottom-sections {
 }
 
 body.dark-mode .why-shop-heading h2,
-body.dark-mode .property-reviews > h2 {
+body.dark-mode .property-reviews>h2 {
     color: #f5f5f5;
 }
 

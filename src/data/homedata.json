@@ -26,7 +26,6 @@
       "title": "Make Your Dream Home Real"
     }
   ],
-
   "cities": [
     {
       "id": 1,
@@ -69,7 +68,6 @@
       "wikipedia": "https://en.wikipedia.org/wiki/Nagpur"
     }
   ],
-
   "properties": [
     {
       "id": 1,
@@ -108,7 +106,6 @@
       "rating": "4.1"
     }
   ],
-
   "features": [
     {
       "id": 1,

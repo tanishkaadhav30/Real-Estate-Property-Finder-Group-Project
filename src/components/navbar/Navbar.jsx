@@ -133,7 +133,7 @@ function Navbar() {
           <FiHome />
           Property
         </button>
-        
+
         <button
           onClick={() => navigate("/wishlist")}
         >
