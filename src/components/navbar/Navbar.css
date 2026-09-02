@@ -29,7 +29,7 @@
 
 .navbar-logo svg {
   font-size: 40px;
-  color: rgb(245, 244, 244);
+  color: rgb(255, 252, 252);
 }
 
 .navbar-logo img {
@@ -93,9 +93,9 @@
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
-  border: 1px solid #948377 !important;
+  border: 1px solid #0e0a08 !important;
   border-radius: 50% !important;
-  background: #b96565 !important;
+  background: #2d2323 !important;
   color: #222222 !important;
   font-size: 20px !important;
   cursor: pointer;
@@ -143,7 +143,7 @@ body.dark-mode .navbar-links button:hover {
 body.dark-mode .theme-btn {
   background: #333333 !important;
   border-color: #555555 !important;
-  color: #ffffff !important;
+  color: #180c0c !important;
 }
 
 /* DARK MODE */

@@ -1360,8 +1360,8 @@ body {
   padding: 0 !important;
   border: none !important;
   border-radius: 50%;
-  background: #f1f1f1 !important;
-  color: #222 !important;
+  background: #0c0a0a !important;
+  color: #201919 !important;
   font-size: 18px !important;
   cursor: pointer;
   display: flex;
@@ -1377,8 +1377,8 @@ body {
 /* DARK MODE */
 
 body.dark-mode {
-  background: #121212;
-  color: #eeeeee;
+  background: #fcfafa;
+  color: #2b2020;
 }
 
 /* Main sections */
