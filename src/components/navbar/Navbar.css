@@ -102,6 +102,11 @@
   transition: all 0.3s ease;
 }
 
+.theme-btn svg {
+color:#ff8533;
+stroke-width: 2.5;
+}
+
 .theme-btn:hover {
   transform: scale(1.08) !important;
 }
