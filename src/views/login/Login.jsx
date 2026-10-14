@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Login.css";
 
-// Image imports
 import userIcon from "../../assets/user.svg";
 import lockIcon from "../../assets/lock.png";
 import passShowIcon from "../../assets/passShow.png";
@@ -124,15 +123,8 @@ export default function AuthPage() {
     // Login status
     localStorage.setItem("isLoggedIn", "true");
 
-    // Users list
-    const existingUsers = JSON.parse(
-      localStorage.getItem("users") || "[]"
-    );
-
-    const alreadyExists = existingUsers.some(
-      (user) => user.mobile === userData.mobile
-    );
-
+    const existingUsers = JSON.parse(localStorage.getItem("users") || "[]");
+    const alreadyExists = existingUsers.some((u) => u.email === userData.email);
     if (!alreadyExists) {
       existingUsers.push(userData);
 
